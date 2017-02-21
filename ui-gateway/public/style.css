@@ -1,0 +1,46 @@
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: url('/images/documents.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: .3em;
+    margin: 0 0 .25em;
+    text-align: center;
+    text-indent: .3em;
+    text-transform: uppercase;
+    color: #204682
+}
+
+.subtitle {
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: .3em;
+    margin: 0 0 .25em;
+    text-align: center;
+    text-indent: .3em;
+    text-transform: uppercase;
+    color: #204682
+}
+
+/* Overrides to Bootstrap elements */
+.form-group.required .control-label:before {
+    content: "* ";
+    color: red;
+}
+
